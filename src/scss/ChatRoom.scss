@@ -1,0 +1,25 @@
+.chat_room {
+  height: 100%;
+
+  .messages_block {
+    margin-bottom: 15px;
+    height: calc(100% - 68px - 111px - 35px);
+  }
+
+  .messanges_textArea {
+    resize: none !important;
+    border: 1px solid rgb(182, 182, 182) !important;
+    margin-bottom: 5px !important;
+
+    &:focus {
+      border-color: #1b1c1d !important; 
+    }
+  }
+
+  Button {
+    margin-right: 19px !important;
+  }
+}
+
+
+

@@ -1,0 +1,38 @@
+.message_card {
+  width: 70% !important;
+  border-radius: 10px !important;
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+
+  .header {
+    font-size: 16px !important;
+    display: flex !important;
+    align-items: center !important;
+
+    img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+  }
+
+  .body {
+    font-size: 14px !important;
+    word-wrap: break-word;
+  }
+
+  .card_content:first-child {
+    padding-top: 10px !important;
+    padding-bottom: 0 !important;
+  }
+
+  .card_content:last-child {
+    padding-top: 0 !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+.message_card__right {
+  margin-left: 30% !important;
+}
